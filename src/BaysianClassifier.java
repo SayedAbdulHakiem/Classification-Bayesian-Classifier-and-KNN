@@ -566,8 +566,8 @@ void printAccuracyPrecentageOfKNNClassifier(){
 		//System.out.println("found     = "+found);
 		if(found==predicted)
 			counter++;
-	}
-	System.out.println(" ");																															testDataSize+=50;
+	}testDataSize+=50;
+	System.out.println(" ");
 	accuracy=(float)(100*counter)/testDataSize;
 	kn_accuracy=accuracy;
 	String accuracyText=".....The Accuracy of the K_nearest Algorithm is : "+accuracy+" %";
